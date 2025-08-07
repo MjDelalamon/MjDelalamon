@@ -9,6 +9,7 @@ import Customer from "./AdminPage/Customer";
 import Orders from "./AdminPage/Orders";
 import Rewards from "./AdminPage/Reward";
 import Menu from "./AdminPage/Menu";
+import WalletSystem from "./AdminPage/Wallet";
 
 import "./Style/Dashboard.css";
 import "./Style/App.css";
@@ -19,6 +20,7 @@ import "./Style/Customer.css";
 import "./Style/Order.css";
 import "./Style/Reward.css";
 import "./Style/Menu.css";
+import "./Style/Wallet.css";
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
       <Route path="/orders" element={<Orders />} />
       <Route path="/rewards" element={<Rewards />} />
       <Route path="/menu" element={<Menu />} />
+      <Route path="/wallet" element={<WalletSystem />} />
     </Routes>
   );
 }
