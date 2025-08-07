@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://MjDelalamon.github.io/MjDelalamon",
+  "homepage": "https://mjdelalamon.github.io/MjDelalamon",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
